@@ -10,8 +10,8 @@ class Spree::BlogEntry < ActiveRecord::Base
   validates_presence_of :body
 
   default_scope { order(published_at: :desc) }
-  scope :visible, where(:visible => true)
-  scope :recent, lambda{|max=5| visible.limit(max) }
+  scope :visible, lambda { where(:visible => true) }
+  scope :recent, lambda { |max=5| visible.limit(max) }
 
   if Spree.user_class
     belongs_to :author, :class_name => Spree.user_class.to_s
