@@ -22,7 +22,7 @@ ru:
   spree:
     admin:
       tab:
-        blog: Новости   
+        Blog: Новости   
     title: Название
     body: Полный текст
     summary: Краткий текст
