@@ -1,0 +1,55 @@
+# Sample localization file for English. Add more files in this directory for other locales.
+# See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+
+ru: 
+  activerecord:
+    attributes:
+      spree/blog_entry:
+        title: Название
+        body: Полный текст
+        summary: Краткие текст
+        permalink: Ссылка
+        published_at: Дата публикации
+        visible: Активен
+        author_id: Автор
+        tag_list: Теги
+        category_list: Категории
+      spree/user:
+        nickname: Логин
+        website_url: Website URL
+        google_plus_url: Google Plus URL
+        bio_info: Об авторе
+  spree:
+    admin:
+      tab:
+        blog: Новости   
+    title: Название
+    body: Полный текст
+    summary: Краткий текст
+    permalink: Ссылка
+    published_at: Дата публикации
+    visible: Активен
+    author_id: Автор
+    tag_list: Теги
+    category_list: Категории
+    nickname: Логин
+    website_url: Website URL
+    google_plus_url: Google Plus URL
+    bio_info: Об авторе
+    blog: "Блог"
+    blog_entries: "Новости в блоге"
+    new_blog_entry: "Новая новость"
+    no_blog_entries: "Новых новостей нет."
+    blog_entry_featured_image: Изображение
+    posted_on: Опубликовано
+    posted_in: Опубликовано в
+    tagged: Помеченно
+    by: от
+    blog_read_more: Читать далее
+    blog_archive: Архив
+    blog_tag: Тег
+    blog_category: Категория
+    blog_author: Автор
+  time:
+    formats:
+      blog_date: "%e %b %Y"
