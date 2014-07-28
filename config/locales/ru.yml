@@ -7,7 +7,7 @@ ru:
       spree/blog_entry:
         title: Название
         body: Полный текст
-        summary: Краткие текст
+        summary: Краткий текст
         permalink: Ссылка
         published_at: Дата публикации
         visible: Активен
